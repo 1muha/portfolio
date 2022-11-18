@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(163, 4, 7, 0.915);
+}
+
+h1{
+    color: rgb(0, 255, 247);
+    margin-left: 300px;
+    margin-top: 50px;
+    box-shadow: rgb(0, 255, 247) 0px 5px 15px;
+}
+i{
+    color:rgba(55, 255, 0, 0.573);
+}
+.img img{
+    width: 250px;
+    height: 250px;
+    margin-left: 1000px;
+    
+}
+
+img{
+    margin-top: 50px;
+    box-shadow: rgb(0, 255, 247) 0px 5px 15px;
+    border-radius: 50%;
+}
+
+h1:hover{
+    color: red;
+    cursor: pointer;
+    box-shadow: rgb(109, 189, 186) 0px 5px 15px;
+    transition: 3s;
+    font-family: 'Trebuchet fontMS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+i:hover{
+    color: aqua;
+    transition: 2s;
+    font-family: 'Trebuchet fontMS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.img:hover{
+    cursor: pointer;
+    transition: s;
+    background-image:url(/new\ york.png);
+    border-radius: 18000px;
+}
